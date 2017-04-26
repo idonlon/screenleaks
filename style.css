@@ -1,0 +1,67 @@
+#drag-1, #drag-2 {
+  position:relative;
+  width: 35%;
+  height: 100%;
+  min-height: 6.5em;
+  margin: 10%;
+
+  background-color: #29e;
+  background:white;
+  border-style:solid;
+  border-color:#000;
+  border-width: 1px;
+
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+#drag-me::before {
+  content: "#" attr(id);
+  font-weight: bold;
+}
+
+#folders {
+  float: left;
+  width:30%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+iframe {
+  border:none;
+  display:block;
+}
+
+#windows {
+  float:right;
+  width:75%;
+  height:100%;
+}
+#folder-one {
+    width: 125px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 980px) {
+  #folder-one {
+    width: 125px;
+    height: 100px;
+  }
+
+  #drag-1 {
+    resize:none;
+  }
+
+  .container {
+    width: 970px !important;
+  }
+}
+
+#col1 {
+  margin:0;
+}
+
