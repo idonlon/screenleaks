@@ -1286,8 +1286,10 @@ h6,
 .h6 {
   font-size: 12px;
 }
+
+/*CHANGE FONT HERE */
 p {
-  margin: 0 0 10px;
+  margin: 0 0 -5px;
 }
 .lead {
   margin-bottom: 20px;

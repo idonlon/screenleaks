@@ -18,10 +18,10 @@ interact('.draggable')
     onend: function (event) {
       var textEl = event.target.querySelector('p');
 
-      textEl && (textEl.textContent =
-        'moved a distance of '
-        + (Math.sqrt(event.dx * event.dx +
-                     event.dy * event.dy)|0) + 'px');
+      // textEl && (textEl.textContent =
+      //   'moved a distance of '
+      //   + (Math.sqrt(event.dx * event.dx +
+      //                event.dy * event.dy)|0) + 'px');
     }
   });
 
@@ -43,3 +43,5 @@ interact('.draggable')
 
   // this is used later in the resizing and gesture demos
   window.dragMoveListener = dragMoveListener;
+
+  
